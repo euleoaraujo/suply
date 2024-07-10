@@ -11,16 +11,25 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
         crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link rel="shortcut icon" href="produtos/favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <style>
             #name{
                 font-size: 1.5em;
                 font-weight: bold;
             }
+            .poppins-regular {
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
         </style>
         <title>Suply.com</title>
     </head>
-    <body class="container">
+    <body class="container poppins-regular">
         <header>
             <nav class="navbar navbar-expand-lg bg-white">
                 <div class="container">
@@ -82,10 +91,12 @@
         <main class="container">
             <div class="row">
                 <div class="col-12 col-md-6 order-2 order-md-0">
-                    <h1 class="text-md-start text-center mt-5">Bem vindo a <span class="text-primary">Suply.</span><br>Desenvolva qualquer coisa!</h1>
-                    <p>Construa um site bonito e moderno com componentes flexíveis do Bootstrap contruídos do zero</p>
+                    <h1 class="text-md-start text-center mt-5 mb-3">Bem vindo a <span class="text-primary">Suply.</span><br>E desenvolva qualquer coisa!</h1>
+                    <p class="text-muted text-center text-md-start">Construa um site bonito e moderno com componentes flexíveis
+                      <br>
+                      do Bootstrap contruídos do zero</p>
                     <div class="text-md-start text-center">
-                        <button class="btn btn-primary">
+                        <button class="btn btn-primary me-2">
                             Saiba mais
                         </button>
                         <button class="btn btn-outline-primary">
@@ -98,37 +109,31 @@
                     <img src="produtos/img.png" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 aos-init aos-animate" alt="..." data-aos="fade-up" data-aos-delay="100">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <div class="card mb-5" style="width: 18rem;">
+            <div class="row mt-0">
+              <div class="col-12 col-md-4">
+                <div class="card mb-5 border-0" style="width: 18rem;">
                         <div class="card-body">
-                          
-                          <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
+                          <i class="bi bi-aspect-ratio-fill text-primary" style="font-size: 2em;"></i>
+                          <h5>Resposividades</h5>
+                          <p class="card-text mt-3">Sites responsivos com qualquer tamanho de tela do smartphone ao computador</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="card mb-5" style="width: 18rem;">
+                    <div class="card mb-5 border-0" style="width: 18rem;">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
+                          <i class="bi bi-bag-check-fill text-primary" style="font-size: 2em;"></i>
+                          <h5 class="card-title">Ralize sua compra aqui</h5>
+                          <p class="card-text mt-3">Você pode decidir o modelo do jeito que quiser e compre com o menor valor do mercado.</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="card mb-5" style="width: 18rem;">
+                    <div class="card mb-5 border-0" style="width: 18rem;">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
+                          <i class="bi bi-cloud-fill text-primary" style="font-size: 2em;"></i>
+                          <h5>Hospedagem</h5>
+                          <p class="card-text mt-3">Fique conosco e hospede seu site com a maior segurança e qualidade na <span class="text-primary">Suply.</span></p>
                         </div>
                       </div>
                 </div>
@@ -153,7 +158,7 @@
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
             crossorigin="anonymous"
         ></script>
-
+        
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
