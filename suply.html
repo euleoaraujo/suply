@@ -17,6 +17,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <style>
+            html,body{
+              height: 100%;
+            }
             #name{
                 font-size: 1.5em;
                 font-weight: bold;
@@ -25,6 +28,9 @@
                 font-family: "Poppins", sans-serif;
                 font-weight: 400;
                 font-style: normal;
+            }
+            .form-container{
+                max-width: 400px;
             }
         </style>
         <title>Suply.</title>
@@ -133,9 +139,37 @@
                 
             </div>
         </main>
-              <div class="row">
-                <div class="col">
-
+              <div class="row container">
+                <div class=" col-12 col-md-6 d-flex aling-items-start bg-body-dark py-4">
+                  <div class="w-100  form-container shadow rounded p-3">
+                    <form>
+                      <h1 class="h3 text-primary p-3 mb-3">Suply.</h1>
+                      <h3 class="mb-3 fw-normal p-3">Faça Seu login</h3>
+      
+                      <div class="form-floating">
+                          <input type="user" class="form-control border-0 shadow mb-4" id="floatingInput" placeholder="Seu-email@gmail.com" autocomplete="off"/>
+                          <label for="floatingInput">Usuário :</label>
+                      </div>
+                      <div class="form-floating">
+                          <input type="password" class="form-control border-0 shadow mb-5" id="floatingInput" placeholder="password">
+                          <label for="floatingInput">Senha :</label>
+                      </div>
+                      <div class="form-check text-start my-3">
+                          <input type="checkbox" class="form-check-input shadow border-0" id="flexCheckDefault">
+                          <label for="flexCheckDefault" class="form-check-label">Lembre-se</label>
+                          
+                      </div>
+                      <button class="btn btn-outline-primary w-100 py-2 shadow border-0 mt-4">
+                          Continue
+                      </button>
+                  </form>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <h1 class="h5">O recurso mais útil <br>
+                  já criado para desenvolvedores</h1>
+                  <p>Usar a <span class="text-primary">Suply</span> para construir seu site significa nunca se preocupar em projetar outra página ou compatibilidade entre navegadores. Nossa biblioteca cada vez maior de componentes e layouts pré-projetados tornará sua vida mais fácil.</p>
+                </div>
                 </div>
               </div>
 
